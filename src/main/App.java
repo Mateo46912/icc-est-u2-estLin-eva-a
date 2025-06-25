@@ -23,6 +23,7 @@ public class App {
         Queue<String> cola2 = new LinkedList<>(Arrays.asList("c", "a", "s", "a"));
         Queue<String> cola3 = new LinkedList<>(Arrays.asList("r", "a", "d", "a", "r"));
 
+        System.out.println();
         System.out.println(ejercicios.verificarPalindromoCola(cola2));
         System.out.println(ejercicios.verificarPalindromoCola(cola3));
 
